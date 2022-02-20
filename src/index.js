@@ -108,3 +108,27 @@ const nameArr = ["鈴木", "国分寺", "神田"];
 //   }
 // });
 // console.log(newNameArr);
+
+/**
+ *  三項演算子
+ */
+//　条件 ? trueの時 :　falseの時
+// const val1 = 1 > 0 ? 'trueです' : 'falseです';
+// console.log(val1);
+
+// const arr1 = [3000, "鈴木", , " ", true];
+// const arrType = arr1.map(el=>typeof el);
+// console.log(arrType);
+// const formattedNum = arr1.map((el)=>{
+//   if(typeof el=== 'number'){
+//     return el.toLocaleString();
+//   }else{
+//     return el;
+//   }
+// })
+// console.log(formattedNum);
+
+// const checkNum = (num1, num2) => {
+//   return num1 + num2 > 100 ? num1 + num2 : "error:100以上にしてください";
+// };
+// console.log(checkNum(50, 10));
