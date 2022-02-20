@@ -132,3 +132,17 @@ const nameArr = ["鈴木", "国分寺", "神田"];
 //   return num1 + num2 > 100 ? num1 + num2 : "error:100以上にしてください";
 // };
 // console.log(checkNum(50, 10));
+
+/**
+ * 論理演算子
+ */
+
+// ||の意味 左側がfalseなら右側を返す
+// const num = null;
+// // const fee = num || "金額が未設定です";
+// console.log(fee);
+
+//　&&は左側がtrueなら右側を返す
+const num2 = 100;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2);
